@@ -3,9 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Main</title>
+    <title>Super news</title>
+    <style>
+        .menu_hotbar{
+            height: 500px;
+            width: 100px;
+            background-color: #28282d;
+        }
+        .menu_list_points{
+            text-align: center;
+            color: white;
+        }
+        .menu_list{
+            list-style: none;
+            font-size: 16px;
+            line-height: 36px;
+            padding: 0 0 0 20px;
+            margin: 0;
+            height: 36px;
+            white-space: nowrap;
+            text-align: center;
+            color: white;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+        }
+        .menu_login_button{
+            margin-top: 250px;
+            margin-left: 30px;
+        }
+        .menu_top_hotbar{
+            width: 1170px;
+            height: 50px;
+            background-color: #28282d;
+        }
+    </style>
 </head>
 <body>
-    
+    <div class="menu_top_hotbar">
+        <!-- <img src="images/download.png" alt=""> -->
+    </div>
+    <div class="menu_hotbar">
+        <ul class="menu_list">
+            <li class="menu_list_points"><a href="">Main</a></li>
+           <li class="menu_list_points"><a href="">Capital</a></li>
+           <li class="menu_list_points"><a href="">Ukraine</a></li> 
+           <li class="menu_list_points"><a href="">Military</a></li>
+           <li class="menu_list_points"><a href="">Sport</a></li>
+           <li class="menu_list_points"><a href="">Science</a></li>
+           <li class="menu_list_points"><a href="">War</a></li>
+           <li class="menu_list_points"><a href="">Coronavirus</a></li>
+        </ul>
+        <button type="button", class="menu_login_button">Log in</button>
+    </div>
 </body>
 </html>
